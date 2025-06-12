@@ -27,16 +27,16 @@
  */
  	var content=document.querySelector("#content");
 	switch (true) {
-		case pageName=="popular.html":
-			content.innerHTML="<ul><li>Popular_1</li>
+		case pageName==="popular.html":
+			content.innerHTML=`<ul><li>Popular_1</li>
 					<li>Popular_2</li>
 					<li>Popular_3</li>
-    					</ul>";break;
-		case pageName=="latest.html":
-			content.innerHTML="<ul><li>Latest_1</li>
+    					</ul>`; break;
+		case pageName==="latest.html":
+			content.innerHTML=`<ul><li>Latest_1</li>
 					<li>Latest_2</li>
 					<li>Latest_3</li>
-    					</ul>";break;
+    					</ul>`; break;
 		default:
     			alert(`Sorry, we are out of ${pageName}.`);
 			}
